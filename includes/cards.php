@@ -1,10 +1,10 @@
  <div class="content">
 
-     <div class="card">
-         <div class="card-inner">
+     <div class="card" id="writing">
+         <div class=" card-inner">
              <div class="card-front">
                  <div class="img-container">
-                     <a id="books" href="https://www.templarco.co.uk/templar-books?series=-33" target="_blank">
+                     <a id="books" href="" target="_blank">
                          <img src="https://live.staticflickr.com/65535/49247590053_bff1cebed1.jpg"
                              alt="Ology Book Series">
                      </a>
@@ -37,12 +37,13 @@
              </div>
          </div>
      </div>
-     <div class="card">
+     <div class="card" id="teaching">
          <div class="card-inner">
              <div class="card-front">
                  <div class="img-container">
-                     <a id="books" href="https://www.templarco.co.uk/templar-books?series=-33" target="_blank">
-                         <img src="img/Teaching.jpg" style="width:160%;" alt="Ology Book Series">
+                     <a id="books" href="" target="_blank">
+                         <img src="img/Dug_Dragonology.jpeg" style="width:160%; transform:translate(-18%, -5%);"
+                             alt="Ology Book Series">
                      </a>
                  </div>
                  <h2 style="margin-top: 2rem;">Teaching</h2>
@@ -77,48 +78,45 @@
          </div>
      </div>
 
-     <div class="card">
-         <div class="card-inner">
-             <div class="card-front">
-                 <div class="img-container">
-                     <a id="teaching" href="https://www.anglesmontalt.com" target="_blank">
-                         <img src="https://live.staticflickr.com/65535/54070762696_4a9a0a195e_z.jpg"
-                             alt="English Teaching">
-                     </a>
-                 </div>
-                 <h2 style="margin-top: 2rem;">Web</h2>
-                 <i class="fas fa-code"></i>
-                 <ul class="list">
-                     <li class="list-item">Small and Large Groups</li>
-                     <li class="list-item">Teacher has Business Experience</li>
-                     <li class="list-item">For Meetings</li>
-                     <li class="list-item">For Business Calls</li>
-                     <li class="list-item">For Emails and Letters</li>
-                     <li class="list-item">and speaking a lot!</li>
-                 </ul>
-             </div>
-             <div class="card-back">
-                 <i class="fas fa-code hideme" style="margin-top: 3rem;"></i>
-
-                 <ul class="list">
-                     <li class="list-item">Small and Large Groups</li>
-                     <li class="list-item">Teacher has Business Experience</li>
-                     <li class="list-item">For Meetings</li>
-                     <li class="list-item">For Business Calls</li>
-                     <li class="list-item">For Emails and Letters</li>
-                     <li class="list-item">and speaking a lot!</li>
-                 </ul>
-                 <div class="img-holder">
-                     <div class="img-container-back">
-                         <img src="img/business-min.jpg" alt="" class="nens2">
+     <a href="https://esl-ology.com" target="_blank" style="text-decoration: none;">
+         <div class="card" id="web">
+             <div class="card-inner">
+                 <div class="card-front">
+                     <div class="img-container">
+                         <img src="img/vscode.jpg" style="width:200%; transform: translate(-10%);" alt="html code">
                      </div>
-                     <span data-tooltip="More Info" class="span1"><i class="fas fa-eye"></i></span>
+                     <h2 style="margin-top: 2rem;">Web</h2>
+                     <i class="fas fa-code"></i>
+                     <ul class="list">
+                         <li class="list-item">Interactive Teaching Website</li>
+                         <li class="list-item">HTML, CSS, SASS, JS</li>
+                         <li class="list-item">PHP, MySQL, </li>
+                         <li class="list-item">ChatBots</li>
+                         <li class="list-item">Use of AI for speed</li>
+                     </ul>
+                 </div>
+                 <div class="card-back">
+                     <i class="fas fa-code hideme" style="margin-top: 3rem;"></i>
+                     <ul class="list">
+                         <li class="list-item">Interactive Teaching Website</li>
+                         <li class="list-item">HTML, CSS, SASS, JS</li>
+                         <li class="list-item">PHP, MySQL, </li>
+                         <li class="list-item">ChatBots</li>
+                         <li class="list-item">Use of AI for speed</li>
+                     </ul>
+                     <div class="img-holder">
+                         <div class="img-container-back">
+                             <img src="img/business-min.jpg" alt="" class="nens2">
+                         </div>
+                         <span data-tooltip="More Info" class="span1"><i class="fas fa-eye"></i></span>
+                     </div>
                  </div>
              </div>
          </div>
-     </div>
+     </a>
 
-     <div class="card">
+
+     <div class="card" id="translation">
          <div class="card-inner">
              <div class="card-front">
                  <div class="img-container">
@@ -127,24 +125,24 @@
                  <h2 style="margin-top: 2rem;">Translation</h2>
                  <i class="fas fa-language"></i>
                  <ul class="list">
+                     <li class="list-item">Spanish-English</li>
+                     <li class="list-item">Catalan-English</li>
+                     <li class="list-item">Brochures</li>
+                     <li class="list-item">Scientific Articles</li>
                      <li class="list-item">Websites</li>
-                     <li class="list-item">Spanish</li>
-                     <li class="list-item">Catalan</li>
-                     <li class="list-item">Articles</li>
-                     <li class="list-item">Papers</li>
-                     <li class="list-item">Business</li>
+                     <li class="list-item">For Business</li>
                  </ul>
              </div>
              <div class="card-back">
                  <i class="fas fa-language hideme" style="margin-top: 3rem;"></i>
 
                  <ul class="list">
+                     <li class="list-item">Spanish-English</li>
+                     <li class="list-item">Catalan-English</li>
+                     <li class="list-item">Brochures</li>
+                     <li class="list-item">Scientific Articles</li>
                      <li class="list-item">Websites</li>
-                     <li class="list-item">Spanish</li>
-                     <li class="list-item">Catalan</li>
-                     <li class="list-item">Articles</li>
-                     <li class="list-item">Papers</li>
-                     <li class="list-item">Business</li>
+                     <li class="list-item">For Business</li>
                  </ul>
                  <div class="img-holder">
                      <div class="img-container-back">

@@ -5,6 +5,11 @@
     padding: 0;
 }
 
+body {
+    background-color: #9b4c38;
+}
+
+/* Navbar styling */
 /* Navbar styling */
 .navbar {
     background-color: #9b4c38;
@@ -24,7 +29,6 @@
     font-family: "EB Garamond", serif;
 }
 
-/* Navbar link color - light when on dark background */
 .navbar-nav li a {
     padding: 20px;
     color: #f8f9fa;
@@ -37,10 +41,45 @@
     background-color: #f4e0cb;
 }
 
-/* Change link color when navbar is collapsed (dropdown over hero section) */
-.navbar-collapse.show .navbar-nav li a {
-    color: #413333;
-    /* Darker color for visibility on light background */
+/* Ensure the navbar dropdown has its own background color and takes full width on small screens */
+@media (max-width: 992px) {
+    .navbar-collapse {
+        background-color: #9b4c38;
+        /* Same color as navbar */
+        width: 100%;
+        /* Ensure the dropdown takes full width */
+        position: absolute;
+        top: 70px;
+        /* Push the dropdown below the navbar */
+        left: 0;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+        /* Stack the menu vertically */
+        width: 100%;
+        /* Ensure the menu items take up full width */
+    }
+
+    .navbar-nav li {
+        width: 100%;
+        /* Each menu item takes full width */
+    }
+
+    .navbar-nav li a {
+        text-align: center;
+        /* Center text in dropdown */
+        padding: 10px 0;
+        /* Space between items */
+    }
+}
+
+/* For screens larger than 992px */
+@media (min-width: 992px) {
+    #hero-section {
+        margin-top: 0;
+        /* No extra margin needed on large screens */
+    }
 }
 
 /* Hero Section */
@@ -48,7 +87,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60vh;
+    height: 70vh;
     background-image: url('https://live.staticflickr.com/65535/49246868201_e783db890a.jpg');
     background-size: cover;
     background-position: center;
