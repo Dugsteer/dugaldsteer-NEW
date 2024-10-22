@@ -27,13 +27,15 @@
             </div>
             <div class="hero-text">
                 <h1>Dugald Steer</h1>
-                <p>Writer, Teacher, Translator, Web</p>
+                <p>Writer, Teacher, Translator, Web Design</p>
+
             </div>
         </div>
     </section>
 
 
-    <?php include "includes/cards.php" ?> <?php include "includes/footer.php" ?>
+    <?php include "includes/cards.php" ?>
+    <?php include "includes/writing.php"?><?php include "includes/teaching.php"?><?php include "includes/footer.php" ?>
 
     <!-- Bootstrap JS and Dependencies -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

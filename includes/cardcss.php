@@ -27,15 +27,15 @@ scroll-behavior: smooth;
 }
 
 .content {
-height: 60rem;
-width: 100%;
+height: 100vh;
+max-width: 1200px;
 display: flex;
-justify-content: center;
+justify-content: space-around;
 align-items: center;
 text-align: center;
-justify-content: space-around;
 overflow: hidden;
 background-color: #9b4c38;
+margin: 0 auto;
 }
 
 .card {
@@ -180,12 +180,13 @@ padding: 20px;
 height: auto;
 width:350px;
 padding-top: 2rem;
-margin-bottom: 2rem;
+margin: 3rem;
 background-color: var(--slate);
 display: flex;
 flex-direction: column;
 align-items: center;
 box-shadow: var(--box-shadow-large);
+
 }
 
 .hideme{

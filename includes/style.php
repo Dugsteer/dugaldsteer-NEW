@@ -1,6 +1,6 @@
 <style>
 /* General Reset */
-<?php include "cardcss.php"?>* {
+<?php include "cardcss.php"?><?php include "writingcss.php"?><?php include "teachingcss.php"?>* {
     margin: 0;
     padding: 0;
 }
@@ -88,7 +88,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 70vh;
-    background-image: url('https://live.staticflickr.com/65535/49246868201_e783db890a.jpg');
+    background-image: url('img/parchment.jpg');
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -134,10 +134,15 @@ body {
 }
 
 /* Media query for screens smaller than 1000px */
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 900px) {
+    #hero-section {
+        height: 80vh;
+
+    }
+
     .hero-content {
         flex-direction: column;
-        padding-top: 70px;
+        padding-top: 60px;
         x
         /* Stacks the image under the text */
     }

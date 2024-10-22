@@ -1,6 +1,7 @@
  <div class="content">
 
-     <div class="card" id="writing">
+     <div class="card">
+
          <div class=" card-inner">
              <div class="card-front">
                  <div class="img-container">
@@ -37,7 +38,7 @@
              </div>
          </div>
      </div>
-     <div class="card" id="teaching">
+     <div class="card">
          <div class="card-inner">
              <div class="card-front">
                  <div class="img-container">
